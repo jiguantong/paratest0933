@@ -1,0 +1,11 @@
+$PARA_TEST/bin/acala \
+ --log xcm=trace \
+ --alice \
+ --collator \
+ --force-authoring \
+ --chain karura-dev \
+ --base-path $PARA_TEST/data/para/karura/alice \
+ --unsafe-ws-external --unsafe-rpc-external \
+ --rpc-cors=all \
+ --port 40334 \
+ --ws-port 8845
